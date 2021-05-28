@@ -1,0 +1,11 @@
+/* 
+./src/tailwind.css 
+npx tailwindcss-cli@latest build ./PPE-Training/ppe-training-fe/register-page/src/assets/css/src/tailwind.css -o ./PPE-Training/ppe-training-fe/register-page/src/assets/css/dist/tailwind.css
+*/
+@tailwind base;
+@tailwind components;
+
+
+
+@tailwind utilities;
+
