@@ -2,18 +2,15 @@ import React from 'react'
 import Rate from './Rate'
 import CardSlide from './CardSlide'
 import Sale from "./Sale"
-import Botton from '../Botton'
-import Favourite from './Favourite'
 
 
-
-function CardFull(props) {
+function Card() {
     return (
-        <div {...props} className="relative m-5 flex flex items-center space-x-4 p-4 rounded-xl bg-white shadow-xl max-w-2xl ">
+        <div className="relative flex flex-row object-contain space-x-4 p-4 rounded-2xl bg-white shadow-xl max-w-2xl ">
             <Sale/>
             <div className="flex flex-col w-1/2">
                 <img className="" src="./assets/images/image.jpg"></img>
-                <CardSlide />
+                <CardSlide/>
             </div>
             <div className="flex w-1/2 flex flex-col">
                 <Rate/>
@@ -26,11 +23,10 @@ function CardFull(props) {
                     <li>Thời gian: 4 tháng</li>
                     <li>Hình thức học: Offline</li>
                 </ul>
-                <Favourite/>
-                <Botton/>
+                <button class="bg-yellow-400 hover:bg-yellow-500 text-white shadow-xl font-bold text-sm p-1 m-1 rounded-lg w-1/3">Button</button>
             </div>
         </div>
     )
 }
 
-export default CardFull
+export default Card

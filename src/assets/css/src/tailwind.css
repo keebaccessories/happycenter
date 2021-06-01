@@ -3,3 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.text-blue{
+    @apply color: #2D4B6F;
+}
+.text-red{
+    @apply color: #D55A5C;
+}
