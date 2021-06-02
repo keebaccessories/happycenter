@@ -1,15 +1,20 @@
 import React from 'react'
 import LayoutCenter from '../layout/LayoutCenter'
-import About from './About'
+import CardFull from '../components/Card/CardFull'
+
+
  
 const Home = () => {
     return (
         <div>
             <LayoutCenter>
                 <section>
-                    <About/>
+                    {[...Array(6)].map((item, key)=> (
+                        <CardFull/> 
+                    ))}
                 </section>
             </LayoutCenter>
+            
         </div>
     )
 }

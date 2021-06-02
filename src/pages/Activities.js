@@ -1,10 +1,13 @@
 import React from 'react'
+import LayoutMaster from '../layout/LayoutMaster'
 
 const Activities = () => {
     return (
-        <div>
-            Hoat Dong
-        </div>
+        <LayoutMaster>
+            <section>
+                Ngoại khóa
+            </section>
+        </LayoutMaster>
     )
 }
 

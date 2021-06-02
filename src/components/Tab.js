@@ -13,7 +13,7 @@ function Tab () {
                     <Link className="" to="/Course">Khóa học</Link>
                 </li>
                 <li className="bg-none inline-block border-l border-t border-r rounded-t py-2 px-10 text-gray-500 font-semibold hover:bg-white">
-                    <Link className="" to="/Course">Ngoại khóa</Link>
+                    <Link className="" to="/Activities">Ngoại khóa</Link>
                 </li>
             </ul>
     </div>
