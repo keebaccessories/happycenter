@@ -13,7 +13,7 @@ import {Link} from "react-router-dom";
 function CardFull(props) {
     return (
         <Link to="/CourseDetail" >
-            <div {...props} className="relative  flex m-5 space-x-4 p-4 bg-white  max-w-2xl shadow-xl rounded-xl" href="src/pages/Course.js">
+            <div {...props} className="relative m-4 flex space-x-4 p-4 bg-white  max-w-2xl shadow-xl rounded-xl" href="src/pages/Course.js">
             <Sale/>
                 <div className="flex flex-col w-1/2">
                     <img className="" src="./assets/images/image.jpg"></img>
